@@ -1,23 +1,23 @@
-<%@page contentType="text/html" pageEncoding="windows-1252"%>
-<%@page import = "java.util.ArrayList" %>
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import = "java.util.ArrayList"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Sistema de gestión</title>
+        <title>Sistema de gestiÃ³n</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     </head>
     <body>
     <nav class="position-relative navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.jsp">Sistema de gestión de inventarios</a>
+          <a class="navbar-brand" href="../index.jsp">Sistema de gestiÃ³n de inventarios</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
             <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú</h5>
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MenÃº</h5>
               <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
@@ -26,10 +26,10 @@
                   <a class="nav-link" href="../index.jsp">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./formulario-productos/formulario-productos.jsp">Formulario de Productos</a>
+                  <a class="nav-link active" aria-current="page" href="./formulario-productos.jsp">Formulario de Productos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../lista-productos/lista-productos.jsp">Lista de Productos</a>
+                    <a class="nav-link" href="../producto-servlet">Lista de Productos</a>
                 </li>
               </ul>
             </div>
@@ -57,7 +57,7 @@
         </div>
             <div class="form-floating mb-4">
                 <textarea class="form-control" id="descripcionProducto" name="descripcionProducto" placeholder=""></textarea>
-                <label for="descripcionProducto">Descripción del producto</label>
+                <label for="descripcionProducto">DescripciÃ³n del producto</label>
         </div>
             <div class="form-floating mb-4">
                 <input type="text" class="form-control" id="marcaProducto" name="marcaProducto" placeholder="">

@@ -1,9 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : 3/07/2024, 09:26:30
-    Author     : informatica
---%>
-
 <%@page contentType="text/html" pageEncoding="windows-1252"%>
 <!DOCTYPE html>
 <html>
@@ -16,7 +10,7 @@
     <body>
         <nav class="position-relative navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.jsp">Sistema de gestión de inventarios</a>
+          <a class="navbar-brand" href="./index.jsp">Sistema de gestión de inventarios</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -28,13 +22,13 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.jsp">Inicio</a>
+                  <a class="nav-link active" aria-current="page" href="./index.jsp">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="formulario-productos/formulario-productos.jsp">Formulario de Productos</a>
+                  <a class="nav-link" href="./formulario-productos/formulario-productos.jsp">Formulario de Productos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./lista-productos/lista-productos.jsp">Lista de Productos</a>
+                    <a class="nav-link" href="./producto-servlet">Lista de Productos</a>
                 </li>
               </ul>
             </div>
